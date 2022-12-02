@@ -1,5 +1,5 @@
 apiVersion: /api/v1
-kind: Application
+Kind: Application
 metadata:
   name: nginx
   namespace: nginx
@@ -21,6 +21,7 @@ spec:
     automated: 
       selfHeal: true
       prune: true
+
 
 
 
