@@ -1,5 +1,5 @@
 apiVersion: /api/v2
-Kind: Application
+kind: Application
 metadata:
   name: nginx
   namespace: nginx
