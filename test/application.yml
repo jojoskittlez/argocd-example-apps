@@ -7,9 +7,9 @@ spec:
   project: default
 
   source: 
-    repoURL: https://github.com/Kurento/Kubernetes.git
+    repoURL: git@github.com:jojoskittlez/argocd-example-apps.git
     targetRevision: HEAD
-    path: master
+    path: test
 
   destination:
     server: https://kubernetes.default.svc
