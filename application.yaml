@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: applications.argoproj.io
 metadata:
   name: nginx
@@ -7,7 +7,7 @@ spec:
   project: default
 
   source: 
-    repoURL: git@github.com:jojoskittlez/argocd-example-apps.git
+    repoURL: git@github.com/jojoskittlez/argocd-example-apps.git
     targetRevision: HEAD
     path: main
 
