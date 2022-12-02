@@ -9,7 +9,7 @@ spec:
   source: 
     repoURL: git@github.com:jojoskittlez/argocd-example-apps.git
     targetRevision: HEAD
-    path: test/application.yml
+    path: test
 
   destination:
     server: https://kubernetes.default.svc
