@@ -12,7 +12,7 @@ spec:
     path: main
 
   destination:
-    server: https://kubernetes.default.svc
+    server: https://api.xbd1mu1p2c.jwulf.projects.stage.gardener.get-cloud.io
     namespace: default
 
   syncPolicy:
