@@ -1,4 +1,4 @@
-apiVersion: apps/v1alpha2
+apiVersion: apps/v1
 kind: Application
 metadata:
   name: nginx
