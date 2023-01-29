@@ -12,7 +12,7 @@ spec:
     path: main
 
   destination:
-    server: https://api.xbd1mu1p2c.jwulf.projects.stage.gardener.get-cloud.io
+    server: [cluster ip from gardener]
     namespace: default
 
   syncPolicy:
